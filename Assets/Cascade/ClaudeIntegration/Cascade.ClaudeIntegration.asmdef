@@ -1,0 +1,14 @@
+{
+    "name": "Cascade.ClaudeIntegration",
+    "rootNamespace": "Cascade.ClaudeIntegration",
+    "references": ["Cascade.Core", "Cascade.World", "Cascade.Agents", "Cascade.Simulation"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

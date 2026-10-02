@@ -1,0 +1,14 @@
+{
+    "name": "Cascade.DebugTools",
+    "rootNamespace": "Cascade.DebugTools",
+    "references": ["Cascade.Core", "Cascade.World", "Cascade.Agents", "Cascade.Simulation", "Cascade.ClaudeIntegration", "Cascade.Runtime"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

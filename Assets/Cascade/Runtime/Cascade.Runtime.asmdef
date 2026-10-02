@@ -1,0 +1,14 @@
+{
+    "name": "Cascade.Runtime",
+    "rootNamespace": "Cascade.Runtime",
+    "references": ["Cascade.Core", "Cascade.AI", "Cascade.World", "Cascade.Agents", "Cascade.Simulation", "Cascade.ClaudeIntegration", "Unity.AI.Navigation", "Unity.InputSystem"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

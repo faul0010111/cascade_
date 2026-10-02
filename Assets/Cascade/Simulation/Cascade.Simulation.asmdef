@@ -1,0 +1,14 @@
+{
+    "name": "Cascade.Simulation",
+    "rootNamespace": "Cascade.Simulation",
+    "references": ["Cascade.Core", "Cascade.AI", "Cascade.World", "Cascade.Agents"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

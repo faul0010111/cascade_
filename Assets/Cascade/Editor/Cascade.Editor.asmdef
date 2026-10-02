@@ -1,0 +1,14 @@
+{
+    "name": "Cascade.Editor",
+    "rootNamespace": "Cascade.EditorTools",
+    "references": ["Cascade.Core", "Cascade.World", "Cascade.Agents", "Cascade.Simulation", "Cascade.ClaudeIntegration", "Cascade.Runtime", "Cascade.DebugTools"],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

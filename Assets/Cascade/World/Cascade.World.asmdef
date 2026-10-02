@@ -1,0 +1,14 @@
+{
+    "name": "Cascade.World",
+    "rootNamespace": "Cascade.World",
+    "references": ["Cascade.Core"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

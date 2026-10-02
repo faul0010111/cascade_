@@ -1,0 +1,7 @@
+{"npcs":[
+ {"name":"Helena","archetype":"Organizer","role":"employee","traits":{"Leadership":0.95,"Courage":0.7},"background":"Office manager, did the last fire drill","speechStyle":"short, firm, uses names","relationships":[{"name":"Rui","kind":"Colleague","trust":0.7,"affection":0.4}]},
+ {"name":"Rui","archetype":"Protector","role":"employee","background":"Maintenance technician","speechStyle":"calm, practical","longTermGoal":{"type":"FindPerson","target":"Lia"},"relationships":[{"name":"Lia","kind":"Family","trust":0.95,"affection":0.95}]},
+ {"name":"Lia","archetype":"Curious","role":"visitor","background":"Rui's daughter, visiting for the day","speechStyle":"teenager, informal","relationships":[{"name":"Rui","kind":"Family","trust":0.9,"affection":0.9}]},
+ {"name":"Otto","archetype":"Anxious","role":"visitor","traits":{"Fearfulness":0.95},"background":"Delivery driver, first time in the building","speechStyle":"nervous, repeats himself"},
+ {"name":"Vera","archetype":"Loner","role":"employee","background":"Night-shift developer who prefers headphones","speechStyle":"dry, minimal"}
+]}
