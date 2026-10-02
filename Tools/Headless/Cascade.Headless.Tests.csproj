@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Builds the engine-independent layers (Core, AI, World, Agents, Simulation, ClaudeIntegration minus the Unity
+    transport) against small UnityEngine math stubs and runs the EditMode tests with plain .NET. Used by CI so the
+    AI can be tested without a Unity license.  Usage: dotnet test Tools/Headless/Cascade.Headless.Tests.csproj
+  -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <IsPackable>false</IsPackable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <NoWarn>CS0414;CS0649</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="UnityEngineStubs.cs" />
+    <Compile Include="../../Assets/Cascade/Core/**/*.cs" />
+    <Compile Include="../../Assets/Cascade/AI/**/*.cs" />
+    <Compile Include="../../Assets/Cascade/World/**/*.cs" />
+    <Compile Include="../../Assets/Cascade/Agents/**/*.cs" />
+    <Compile Include="../../Assets/Cascade/Simulation/**/*.cs" />
+    <Compile Include="../../Assets/Cascade/ClaudeIntegration/*.cs" />
+    <Compile Include="../../Assets/Cascade/Tests/EditMode/**/*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+  </ItemGroup>
+</Project>
